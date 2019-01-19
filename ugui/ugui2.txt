@@ -1,0 +1,68 @@
+Configuration	ugui
+STM32CubeMX 	4.21.0
+Date	01/19/2019
+MCU	STM32F103RBTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN1	ADC1_IN1	PA1
+ADC2	IN4	ADC2_IN4	PA4
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-TAMPER-RTC	GPIO_EXTI13	B1 [Blue PushButton]
+3	PC14-OSC32_IN*	RCC_OSC32_IN	
+4	PC15-OSC32_OUT*	RCC_OSC32_OUT	
+5	PD0-OSC_IN*	RCC_OSC_IN	
+6	PD1-OSC_OUT*	RCC_OSC_OUT	
+9	PC1	GPIO_Output	LCD_RST
+14	PA0-WKUP	GPIO_Output	LCD_RD
+15	PA1	ADC1_IN1	YP
+16	PA2*	USART2_TX	USART_TX
+17	PA3*	USART2_RX	USART_RX
+20	PA4	ADC2_IN4	XM
+21	PA5	GPIO_Output	LD2 [Green Led]
+26	PB0	GPIO_Output	LCD_CS
+29	PB10	GPIO_Output	XP
+38	PC7	GPIO_Output	LCD_D1
+41	PA8	GPIO_Input	YM
+42	PA9	GPIO_Output	LCD_D0
+43	PA10	GPIO_Output	LCD_D2
+46	PA13	SYS_JTMS-SWDIO	TMS
+49	PA14	SYS_JTCK-SWCLK	TCK
+55	PB3	GPIO_Output	LCD_D3
+56	PB4	GPIO_Output	LCD_D5
+57	PB5	GPIO_Output	LCD_D4
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : ugui
+Project Folder : C:\ugui\ugui
+Toolchain / IDE : SW4STM32
+Firmware Package Name and Version : STM32Cube FW_F1 V1.4.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
