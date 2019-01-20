@@ -1,7 +1,7 @@
 ### Description
-I presume you have an IDE, in this example I use SW4STM32 (Eclipse), STM32CubeMX and µGui.
+I presume you have an IDE, in this example I use SW4STM32 (Eclipse), STM32CubeMX and µGUI.
 
-You can download all from STMicroelectronics and µgui from [here](http://embeddedlightning.com/ugui/).
+You can download all from STMicroelectronics and µGUI from [here](http://embeddedlightning.com/ugui/).
 
 If you prepare eclipse, **don't** use this letter "**µ**" this will make problems, use instead of "**u**".
 
@@ -15,7 +15,7 @@ Compile the project and program your controller.
 
 The display should look like this. 
 
-![Start](C:\Users\Hare\Desktop\ugui\Start.JPG)
+![Start](Start.JPG)
 
 
 harebit
