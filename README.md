@@ -1,6 +1,6 @@
 # STM32CubeMX and µGUI with TouchScreen
 
-STM32CubeMX and µgui for all display.  
+STM32CubeMX and µGUI for all display.  
 In this example I used a ST7789 driver with TFT display with a resolution of 320x240
 and a nucleo board 64 with a STM32F103RBT6.
 The interface is 8-bit parallel.
